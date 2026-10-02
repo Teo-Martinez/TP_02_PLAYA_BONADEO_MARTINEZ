@@ -1,7 +1,8 @@
 # TP POO - Banco Digital
 
 Trabajo práctico grupal de Programación Orientada a Objetos: **Banco Digital POO**.
-Implementación de las Partes 1 a 5 de la consigna `TP_Grupal_POO_Banco.ipynb`.
+Resolución de las Partes 1 a 4 y preparación de los archivos de entrega de la
+Parte 5 de la consigna `TP_Grupal_POO_Banco.ipynb`.
 
 **Grupo:** 1. **Repositorio:** `tp-poo-banco-grupo1`.
 
@@ -53,7 +54,7 @@ como consigna y se excluye de Git, tal como exige la Parte 5. El borrador vacío
 
 | Parte | Implementación |
 | --- | --- |
-| 1. Cuenta bancaria | `titular`, `numero`, `_saldo` como `float`, saldo inicial cero por defecto, propiedad `saldo`, depósitos, extracciones y `__str__` con dos decimales. |
+| 1. Cuenta bancaria | `titular` y `numero` como `str`; `_saldo` como `float`, saldo inicial cero por defecto, propiedad `saldo`, depósitos, extracciones y `__str__` con dos decimales. |
 | 2. Herencia | `CajaDeAhorro` y `CuentaCorriente` heredan de `CuentaBancaria` y reutilizan su constructor con `super()`. |
 | 2. Interés | `aplicar_interes()` suma al saldo el interés calculado con `tasa_interes`. |
 | 2. Polimorfismo | `CuentaCorriente.extraer()` permite un saldo negativo hasta `-limite_descubierto`, inclusive. |
@@ -89,6 +90,10 @@ como consigna y se excluye de Git, tal como exige la Parte 5. El borrador vacío
    las cuentas se crean de forma independiente y luego se agregan al banco.
 
 ## Publicación en GitHub
+
+Para completar la Parte 5, falta publicar el repositorio, agregar a los
+colaboradores y entregar su enlace. La consigna propone crear el README en GitHub;
+en esta carpeta el README ya está creado y guardado en el historial local.
 
 1. Crear un repositorio **público** llamado `tp-poo-banco-grupo1`.
    Como esta carpeta ya tiene README y commits,
